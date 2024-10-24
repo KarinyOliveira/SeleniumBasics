@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Selenium Test Suite">
+    <test name="Google Search Test">
+		<parameter name="driverPath" value="path/to/chromedriver" />
+        <parameter name="url" value="https://www.google.com" />
+        <parameter name="searchQuery" value="selenium java" />
+        <classes>
+            <class name="tests.ImplicitWaitGoogleSearchTest" />
+        </classes>
+    </test>
+</suite>

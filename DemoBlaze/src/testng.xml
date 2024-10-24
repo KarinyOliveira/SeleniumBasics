@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoBlaze Test Suite">
+    <parameter name="username" value="dummyuserautomation" />
+    <parameter name="password" value="Password123!" />
+    <parameter name="productName" value="Nokia lumia 1520" />
+    <parameter name="contactName" value="Dummy Automation" />
+    <parameter name="contactEmail" value="dummy.automation@example.com" />
+    <parameter name="contactMessage" value="This is a contact test message." />
+
+    <test name="DemoBlaze Tests">
+        <classes>
+            <class name="tests.TestDemoBlaze"/>
+        </classes>
+    </test>
+</suite>

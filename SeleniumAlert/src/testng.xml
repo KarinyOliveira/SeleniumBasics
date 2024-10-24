@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AdvantageDemo Test">
+	<test name="OpenWebPage">
+		<parameter name="url" value="https://www.advantageonlineshopping.com/#/" />
+		<parameter name="title" value=" Advantage Shopping" />
+		<parameter name="username" value="testdemoauto4" />
+		<parameter name="password" value="Test12345" />
+		<classes>
+			<class name="WebdriverCommands" />
+		</classes>
+	</test>
+</suite>

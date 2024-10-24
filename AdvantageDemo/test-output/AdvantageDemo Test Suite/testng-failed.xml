@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AdvantageDemo Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="fname" value="test"/>
+  <parameter name="country" value="Aruba"/>
+  <parameter name="usernameSafepay" value="testsafe"/>
+  <parameter name="city" value="Example"/>
+  <parameter name="speakerName" value="Bose SoundLink Wireless Speaker"/>
+  <parameter name="register_url" value="https://www.advantageonlineshopping.com/#/register"/>
+  <parameter name="title" value=" Advantage Shopping"/>
+  <parameter name="search_item1" value="HP ELITEPAD 1000 G2 TABLET"/>
+  <parameter name="url" value="https://www.advantageonlineshopping.com/#/"/>
+  <parameter name="password" value="Test12345"/>
+  <parameter name="lname" value="demoauto"/>
+  <parameter name="email" value="testdemoauto@example.com"/>
+  <parameter name="username" value="testdemoauto8"/>
+  <parameter name="passwordSafepay" value="Testsafe1234"/>
+  <test thread-count="5" name="Run All(failed)">
+    <classes>
+      <class name="test.AdvantageDemoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="newAccount" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.AdvantageDemoTest -->
+    </classes>
+  </test> <!-- Run All(failed) -->
+</suite> <!-- Failed suite [AdvantageDemo Test Suite] -->

@@ -1,0 +1,20 @@
+1 - Logging into the Website
+
+ - Navigate to the DemoBlaze website.
+ - Click on the "Log in" button.
+ - Enter valid credentials (username and password).
+ - Click the "Log in" button to access the user account.
+
+2 - Adding a Product to the Cart
+
+ - Navigate to the DemoBlaze home page.
+ - Select a smartphone from the home page list
+ - Click the "Add to cart" button.
+ - Confirm the addition of the product to the cart.
+
+3 - Contacting Customer Support
+
+ - Navigate to the DemoBlaze home page.
+ - Click on the "Contact" link.
+ - Fill in the contact form with the required information.
+ - Submit the form to send a message to customer support.
